@@ -23,7 +23,7 @@ from aiogram.types import (
 # ============================================================
 # CONFIG
 # ============================================================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8916701290:AAHPixl7djvo8sI1OwE73xNHZhgYNEH5v7I")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8916701290:AAGvR5gKWco0Ebixvarrrl4OfYbt-vKuaHE")
 ADMIN_IDS = {
     int(x.strip()) for x in os.getenv("ADMIN_IDS", "6863389453").split(",")
     if x.strip().isdigit()
